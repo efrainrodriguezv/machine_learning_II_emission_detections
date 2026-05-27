@@ -1,0 +1,60 @@
+# ============================================================
+# requirements.txt — Emissions from Above ML Project
+# ============================================================
+# Install with:  pip install -r requirements.txt
+#
+# For GPU support replace torch/torchvision with the
+# appropriate CUDA wheel from https://pytorch.org/get-started
+
+# ── Core scientific stack ────────────────────────────────────
+numpy>=1.24
+pandas>=2.0
+scipy>=1.11
+matplotlib>=3.7
+seaborn>=0.13
+
+# ── PyTorch (CPU build — swap for CUDA build as needed) ─────
+torch>=2.2
+torchvision>=0.17
+
+# ── Geospatial / imagery ────────────────────────────────────
+rasterio>=1.3
+GDAL>=3.6               # often installed via conda: conda install -c conda-forge gdal
+geopandas>=0.14
+shapely>=2.0
+
+# ── Machine learning ─────────────────────────────────────────
+scikit-learn>=1.4
+xgboost>=2.0            # alternative to sklearn GBT
+lightgbm>=4.0           # fast GBT — optional but recommended
+joblib>=1.3
+
+# ── Experiment tracking ──────────────────────────────────────
+mlflow>=2.11
+
+# ── Interpretability ─────────────────────────────────────────
+grad-cam>=1.5.0         # pytorch-grad-cam (pip name: grad-cam)
+
+# ── Notebook environment ────────────────────────────────────
+jupyter>=1.0
+nbformat>=5.9
+ipykernel>=6.29
+ipywidgets>=8.1
+tqdm>=4.66
+
+# ── Data I/O ─────────────────────────────────────────────────
+openpyxl>=3.1           # for reading eGRID .xlsx files
+pyarrow>=15.0           # fast parquet I/O for large dataframes
+h5py>=3.10              # HDF5 storage for batched training arrays
+
+# ── Visualisation extras ─────────────────────────────────────
+plotly>=5.20
+folium>=0.16            # interactive geographic maps
+
+# ── Optional: Google Earth Engine API ───────────────────────
+# earthengine-api>=0.1.390
+# geemap>=0.30
+
+# ── Optional: HuggingFace vision transformers ────────────────
+# transformers>=4.40
+# timm>=0.9
