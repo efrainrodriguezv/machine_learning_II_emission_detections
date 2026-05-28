@@ -96,7 +96,7 @@ ResNet-18 trained for 30 epochs on quartile-threshold labels.
 
 EfficientNet-B0 trained for 40 epochs on 8 fuel categories. Overall test accuracy **39.5%** — well above the 12.5% random baseline for an 8-class problem.
 
-![Per-class accuracy on test set](assets/t2_per_class_accuracy.png)
+![Per-class accuracy on test set](outputs/task2_multiclass_clf/per_class_accuracy.png)
 *Figure 3. Per-class accuracy on the test set (dashed = overall 39.5%). HYDRO and WIND are strongest; GAS and NUCLEAR weakest.*
 
 ![Confusion matrix — fuel type classification](assets/t2_confusion_matrix.png)
