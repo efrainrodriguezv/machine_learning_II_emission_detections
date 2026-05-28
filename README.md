@@ -99,10 +99,10 @@ EfficientNet-B0 trained for 40 epochs on 8 fuel categories. Overall test accurac
 ![Per-class accuracy on test set](outputs/task2_multiclass_clf/per_class_accuracy.png)
 *Figure 3. Per-class accuracy on the test set (dashed = overall 39.5%). HYDRO and WIND are strongest; GAS and NUCLEAR weakest.*
 
-![Confusion matrix — fuel type classification](assets/t2_confusion_matrix.png)
+![Confusion matrix — fuel type classification](outputs/task2_multiclass_clf/confusion_matrix.png)
 *Figure 4. Confusion matrix (test set). Strong diagonal entries: HYDRO (71), WIND (46), GAS (55). GAS scatter across BIOMASS, COAL, and OIL reflects visual similarity among fossil-fuel plant types.*
 
-![PCA and t-SNE of CNN embeddings](assets/t2_embedding.png)
+![PCA and t-SNE of CNN embeddings](outputs/task2_multiclass_clf/embedding_visualization.png)
 *Figure 5. PCA and t-SNE of penultimate-layer CNN embeddings. Classes do not form clean clusters, consistent with low overall accuracy, though WIND and HYDRO show mild separation in t-SNE space.*
 
 **What works:** Structurally distinct plants — HYDRO (0.68), WIND (0.67), OIL (0.57), COAL (0.51) — have unique visual footprints even at 15 m resolution.
