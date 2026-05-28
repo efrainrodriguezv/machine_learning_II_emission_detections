@@ -146,16 +146,16 @@ The ensemble was run over **4,435 plants** with available imagery. All four sign
 | One-Class SVM | 1,334 |
 | Ensemble top-30 (for review) | 30 |
 
-![Anomaly scatter: predicted vs reported CO₂ intensity](assets/t4_anomaly_scatter.png)
+![Anomaly scatter: predicted vs reported CO₂ intensity](outputs/anomaly_scatter.png)
 *Figure 6. Predicted vs. reported log(CO₂ intensity). Points above the dashed line (predicted > reported) are anomaly candidates. Red stars mark the top 30 by ensemble score. Orange points are suspicious fossil-fuel plants with zero reported CO₂.*
 
-![Ensemble anomaly scores by fuel type and geography](assets/t4_anomaly_by_fuel.png)
+![Ensemble anomaly scores by fuel type and geography](outputs/t4_anomaly_by_fuel_and_state.png)
 *Figure 7. Left: ensemble anomaly score distributions by fuel category. NUCLEAR (median ~0.40) and COAL score highest. HYDRO scores lowest, consistent with its zero-emissions profile. Right: geographic distribution of top-30 anomalies — CA (5) and MN (4) lead.*
 
-![Residual distribution](assets/t4_residual_distribution.png)
+![Residual distribution](outputs/residual_distribution.png)
 *Figure 8. Residual distribution for verified plants (left, approximately normal) vs. the Z-score distribution used to flag suspicious plants (right). The dashed line marks Z = 2.5.*
 
-![Uncertainty vs anomaly score](assets/t4_uncertainty.png)
+![Uncertainty vs anomaly score](outputs/uncertainty_vs_anomaly_score.png)
 *Figure 9. MC Dropout uncertainty vs. ensemble anomaly score, coloured by residual Z-score. High uncertainty combined with high residual amplifies the anomaly signal.*
 
 **Top 10 flagged facilities (ensemble score)**
