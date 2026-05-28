@@ -81,10 +81,9 @@ ResNet-18 trained for 30 epochs on quartile-threshold labels.
 | Recall (High) | — | — | 76.4% (107/140) |
 | FP Rate (Low) | — | — | 19.5% (59/303) |
 
-<p align="center">
-  <img src="outputs/confusion_matrix.png" width="44%" alt="Confusion matrix"/>
 
-</p>
+  ![Confusion Matrix & ROC curve](outputs/confusion_matrix.png)
+
 
 *Figure 2. Left: confusion matrix on held-out test set (Low n=303, High n=140). Right: ROC curve, AUC = 0.866.*
 
