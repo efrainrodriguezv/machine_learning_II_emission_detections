@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ssh-add -l)",
+      "Read(//Users/efrainrodriguez/**)",
+      "Bash(git -C /Users/efrainrodriguez/Documents/GitHub/machine_learning_II_emission_detections remote set-url origin https://github.com/efrainrodriguezv/machine_learning_II_emission_detections.git)"
+    ]
+  }
+}
