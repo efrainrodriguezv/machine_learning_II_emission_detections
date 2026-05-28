@@ -149,7 +149,7 @@ The ensemble was run over **4,435 plants** with available imagery. All four sign
 ![Anomaly scatter: predicted vs reported CO₂ intensity](outputs/anomaly_scatter.png)
 *Figure 6. Predicted vs. reported log(CO₂ intensity). Points above the dashed line (predicted > reported) are anomaly candidates. Red stars mark the top 30 by ensemble score. Orange points are suspicious fossil-fuel plants with zero reported CO₂.*
 
-![Ensemble anomaly scores by fuel type and geography](outputs/t4_anomaly_by_fuel_and_state.png)
+![Ensemble anomaly scores by fuel type and geography](outputs/anomaly_by_fuel_and_state.png)
 *Figure 7. Left: ensemble anomaly score distributions by fuel category. NUCLEAR (median ~0.40) and COAL score highest. HYDRO scores lowest, consistent with its zero-emissions profile. Right: geographic distribution of top-30 anomalies — CA (5) and MN (4) lead.*
 
 ![Residual distribution](outputs/residual_distribution.png)
