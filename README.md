@@ -69,7 +69,7 @@ No single anomaly signal is reliable in isolation — residuals can be large due
 
 ResNet-18 trained for 30 epochs on quartile-threshold labels.
 
-![Training curves: loss, accuracy, and AUC-ROC over 30 epochs](assets/t1_training_curves.png)
+![Training curves: loss, accuracy, and AUC-ROC over 30 epochs](outputs/t1_training_curves.png)
 *Figure 1. Training curves over 30 epochs. Best validation AUC-ROC = 0.852 (dashed). Train/val accuracy gap (~94% vs ~79%) reflects expected generalisation loss on small satellite patches.*
 
 **Table 1. Quantitative results — held-out test set (n = 443)**
@@ -82,8 +82,8 @@ ResNet-18 trained for 30 epochs on quartile-threshold labels.
 | FP Rate (Low) | — | — | 19.5% (59/303) |
 
 <p align="center">
-  <img src="assets/t1_confusion_matrix.png" width="44%" alt="Confusion matrix"/>
-  <img src="assets/t1_roc_curve.png" width="44%" alt="ROC curve"/>
+  <img src="outputs/confusion_matrix.png" width="44%" alt="Confusion matrix"/>
+
 </p>
 
 *Figure 2. Left: confusion matrix on held-out test set (Low n=303, High n=140). Right: ROC curve, AUC = 0.866.*
